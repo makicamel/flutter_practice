@@ -24,8 +24,7 @@ class _ParentWidgetState extends State<ParentWidget> {
 // 親ウィジェットが子ウィジェットのStateを管理する
 class TapBoxB extends StatelessWidget {
   TapBoxB({Key key, this.active: false, @required this.onChanged})
-      : assert(active = false),
-        assert(onChanged != null),
+      : assert(onChanged != null),
         super(key: key);
 
   final bool active;
